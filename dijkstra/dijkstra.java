@@ -14,7 +14,7 @@ public class dijkstra {
             }
         }
 
-        for (int i = 1; i < v - 1; i++) {
+        for (int i = 0; i < v ; i++) {
             // Find the vertex with the minimum distance that has not been visited yet
             int minVertex = findMinVertex(distance, visited_node);
             visited_node[minVertex] = true;
@@ -32,7 +32,7 @@ public class dijkstra {
 
         // Print the shortest distances
         for (int i = 0; i < v; i++) {
-            System.out.println(i + " " + distance[i]);
+            System.out.print(distance[i]+ " , ");
         }
     }
 
