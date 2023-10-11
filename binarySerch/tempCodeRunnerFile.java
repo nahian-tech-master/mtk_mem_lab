@@ -32,7 +32,7 @@ public class Binary_Search {
         int ans = ob.bs(arr, 0, n-1, target);
         if(ans == -1)
         {
-            System.out.println("VALUE NOT FOUND IN THE ARRAY");13
+            System.out.println("VALUE NOT FOUND IN THE ARRAY");
         }else System.out.println("VALUE FOUND AT INDEX: " + ans);
     }
 }
